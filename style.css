@@ -183,3 +183,32 @@ main{
 .inputTitle button:hover{
     background-color: rgb(3, 93, 60);
 }
+footer{
+    text-align: center;
+    padding: 80px;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 20px;
+}
+.list ul li a{
+    text-decoration: none;
+    gap: 15px;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+footer h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 8px;
+    transition: .7s;
+}
+.list ul li a:hover{
+    color: #454141;
+}
