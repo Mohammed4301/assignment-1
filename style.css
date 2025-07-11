@@ -145,3 +145,41 @@ main{
     border-radius: 22px;
     margin-top: 15px;
 }
+.newslatter{
+    padding: 80px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsTitle h1{
+    font-size: 55px;
+    color: #4E47FF;
+}
+
+.inputTitle h6{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.inputTitle input{
+    width: 300px;
+    padding:15px 25px;
+    border: 1px solid;
+    border-radius: 7px;
+    outline: none;
+    background-color: #e1e1e1;
+}
+.inputTitle button{
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #4E47FF;
+    padding: 10px 80px;
+    width: 352px;
+    margin-top: 20px;
+    transition: .7s;
+}
+.inputTitle button:hover{
+    background-color: rgb(3, 93, 60);
+}
